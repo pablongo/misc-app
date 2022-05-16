@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Laurel Gaming</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.366128151659-bpmoeedkdbvcbauj3e9v2h4f41umgk1o</string>
+				<string>fb430965902101195</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>19</string>
+	<key>FacebookAppID</key>
+	<string>430965902101195</string>
+	<key>FacebookClientToken</key>
+    <string>eafd85ddb4a3263651db9a8ab7574a6d</string>
+	<key>FacebookDisplayName</key>
+	<string>Laurel-Gaming</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSContactsUsageDescription</key>
+	<string>App requires access to your contacts to allow you to find and invite players to play in Laurel Gaming</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Laurel.ttf</string>
+		<string>Apercu Pro Regular.otf</string>
+		<string>Apercu Mono Pro Bold.otf</string>
+		<string>Apercu Mono Pro Light.otf</string>
+		<string>Apercu Mono Pro Medium.otf</string>
+		<string>Apercu Mono Pro Regular.otf</string>
+		<string>Apercu Pro Black Italic.otf</string>
+		<string>Apercu Pro Black.otf</string>
+		<string>Apercu Pro Bold Italic.otf</string>
+		<string>Apercu Pro Bold.otf</string>
+		<string>Apercu Pro ExtraLight Italic.otf</string>
+		<string>Apercu Pro ExtraLight.otf</string>
+		<string>Apercu Pro Italic.otf</string>
+		<string>Apercu Pro Light Italic.otf</string>
+		<string>Apercu Pro Light.otf</string>
+		<string>Apercu Pro Medium Italic.otf</string>
+		<string>Apercu Pro Medium.otf</string>
+		<string>Apercu Pro Thin Italic.otf</string>
+		<string>Apercu Pro Thin.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

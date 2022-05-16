@@ -1,0 +1,71 @@
+name: iOS
+
+#on: 
+#  push:
+#    branches:
+#      - testing 
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2    
+    - name: Select Xcode Version
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: 12.4
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.SSH_KEY }}
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+    - name: Setup ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.2
+        bundler-cache: true
+    - name: Install bundler
+      run: |
+        gem install bundler
+        gem update bundler
+        bundle install --without development --jobs 4 --retry 3
+    - name: Cache npm dependencies
+      uses: actions/cache@v2
+      with:
+        path: '~/.npm'
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - run: npm install
+    - run: npm run pod-install
+
+    - name: Build & Distribute to Testflight
+      run: |
+        export LC_ALL=en_US.UTF-8
+        export LANG=en_US.UTF-8
+        bundle exec fastlane ios beta
+      env:
+        MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+        APPLE_ID: ${{ secrets.APPLE_ID }}
+        APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+        APP_STORE_TEAM_ID: ${{ secrets.APP_STORE_TEAM_ID }}
+        CI_KEYCHAIN_NAME: ${{ secrets.CI_KEYCHAIN_NAME }}
+        CI_KEYCHAIN_PASSWORD: ${{ secrets.CI_KEYCHAIN_PASSWORD }}
+        DEVELOPER_TEAM_ID: ${{ secrets.DEVELOPER_TEAM_ID }}
+        GIT_REPO_URL: ${{ secrets.GIT_REPO_URL }}
+        MATCH_KEYCHAIN_PASSWORD: ${{ secrets.MATCH_KEYCHAIN_PASSWORD }}
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Laurelgaming-ipa
+        path: '**/*.ipa'

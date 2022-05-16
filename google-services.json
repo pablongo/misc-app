@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "366128151659",
+    "project_id": "laurelgaming-testing",
+    "storage_bucket": "laurelgaming-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366128151659:android:a83d21a61412dd6f57852e",
+        "android_client_info": {
+          "package_name": "com.akimad.laurel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366128151659-recfbcl1ulr3tobdsa9gf3l695u37u9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akimad.laurel",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "366128151659-kl0d9ctmme4had9aoee3tum7rn6pjdjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVYwwCx6PvLb3_VowYbprSXbCoW9iD32Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366128151659-kl0d9ctmme4had9aoee3tum7rn6pjdjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

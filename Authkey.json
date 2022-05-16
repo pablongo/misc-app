@@ -1,0 +1,7 @@
+{
+    "key_id": "CF24DAG49U",
+    "issuer_id": "7db2db09-f488-4f95-b851-c2ca26572244",
+    "key": "-----BEGIN PRIVATE KEY-----\nMIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg2lMZzXG/w51KuMb/\nJ97OeX5w5EHm+MqUv6FJ5TM+PzOgCgYIKoZIzj0DAQehRANCAASrBgFo+g6oMyrm\nP3cpCksPJ7+nQWbqt4xfIsbmsSCwIRzArryqACuvEZLPMYDcru7xioosjqxS9uC1\nzDW8tne0\n-----END PRIVATE KEY-----",
+    "duration": 1200,
+    "in_house": false
+}

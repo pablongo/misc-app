@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laurel Gaming</string>
+    <string name="facebook_app_id">430965902101195</string>
+    <string name="facebook_client_token">eafd85ddb4a3263651db9a8ab7574a6d</string>
+    <string name="fb_login_protocol_scheme">fb430965902101195</string>
+    <string name="deepLinkingIntent">deepLinkingIntent</string>
+    <string name="httpDeepLinkingIntent">httpDeepLinkingIntent</string>
+</resources>

@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobileTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1866C678F81E4284890845D9 /* Apercu Pro Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5451352CA0AF4A56A544AB52 /* Apercu Pro Medium Italic.otf */; };
+		1DECA48C495048288D3A1F00 /* Apercu Pro ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF4DC02422354B1FB4436487 /* Apercu Pro ExtraLight.otf */; };
+		29D889A25BA244C2A22764D4 /* Apercu Mono Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66C1B3EF2EFB4D68962CF16E /* Apercu Mono Pro Medium.otf */; };
+		3ADE4F64D6FA45DFA7C3E7D4 /* Apercu Mono Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37E706865F4C0A93A4BE6E /* Apercu Mono Pro Bold.otf */; };
+		3B5587E54C194B9FB129B08E /* Apercu Pro ExtraLight Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 061B287A2499499BB40C7439 /* Apercu Pro ExtraLight Italic.otf */; };
+		4280D294C9034A638161DACA /* Apercu Pro Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5DC9976090F41BAA1D1AE88 /* Apercu Pro Thin Italic.otf */; };
+		4C58528D904946E18376AA0C /* Apercu Pro Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 756DEE9EBD5441E3B5FCECFC /* Apercu Pro Light Italic.otf */; };
+		514ED91A5A86423BA152DC65 /* Apercu Pro Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E50BA037517475CBF80BDD8 /* Apercu Pro Bold Italic.otf */; };
+		56B74A28FE654F34A3EC88C6 /* Apercu Pro Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 285E01ED1C6B47859C5E1F02 /* Apercu Pro Italic.otf */; };
+		6172F2D35A4C3AA820D92908 /* libPods-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-mobile.a */; };
+		6BCCA9927B5A41DFA05213E1 /* Apercu Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AE30D41D4BB7B5D1E8E3 /* Apercu Pro Medium.otf */; };
+		6D4794EDF752484A805160F5 /* Apercu Pro Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E93C153D0A274D698913E957 /* Apercu Pro Black Italic.otf */; };
+		7EF68E3733C33B6898317E18 /* libPods-mobile-mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-mobile-mobileTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A1CC55D27C1798500D603C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A1CC55C27C1798500D603C4 /* GoogleService-Info.plist */; };
+		8ABEA0FE27AB3F90007B7A3F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEA0FD27AB3F90007B7A3F /* Bolts.framework */; };
+		8ABEA10227AB3FF2007B7A3F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEA10127AB3FF2007B7A3F /* FBSDKCoreKit.framework */; };
+		8ABEA10427AB3FFD007B7A3F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEA10327AB3FFD007B7A3F /* FBSDKLoginKit.framework */; };
+		8ABEA10627AB4006007B7A3F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEA10527AB4006007B7A3F /* FBSDKShareKit.framework */; };
+		A894B7A84961429C94CD7CEC /* Apercu Pro Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07F5965566D74866820461A4 /* Apercu Pro Thin.otf */; };
+		C5382DAD897C4AB78C3685EF /* Apercu Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBE18798D8014DBD88627327 /* Apercu Pro Light.otf */; };
+		D0FC4DC28A134C1685B48EE3 /* Apercu Mono Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA11FD722A32403EAC0C842C /* Apercu Mono Pro Light.otf */; };
+		D21C3A5C280DEFE400A9E49F /* losesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A54280DEFE400A9E49F /* losesound.mp3 */; };
+		D21C3A5D280DEFE400A9E49F /* select.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A55280DEFE400A9E49F /* select.mp3 */; };
+		D21C3A5E280DEFE400A9E49F /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A56280DEFE400A9E49F /* win.mp3 */; };
+		D21C3A5F280DEFE400A9E49F /* videogamelose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A57280DEFE400A9E49F /* videogamelose.mp3 */; };
+		D21C3A60280DEFE400A9E49F /* victorysound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A58280DEFE400A9E49F /* victorysound.mp3 */; };
+		D21C3A61280DEFE400A9E49F /* suspension.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A59280DEFE400A9E49F /* suspension.mp3 */; };
+		D21C3A62280DEFE400A9E49F /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A5A280DEFE400A9E49F /* backgroundmusic.mp3 */; };
+		D21C3A63280DEFE400A9E49F /* card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D21C3A5B280DEFE400A9E49F /* card.mp3 */; };
+		D7B908905A634F1C8D64B8BC /* Apercu Mono Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B444B6B9FF4E4E71BF077FD4 /* Apercu Mono Pro Regular.otf */; };
+		DD88043B1AE44B15A2967964 /* Apercu Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E080A6BC3BBE4BD2B0FEA784 /* Apercu Pro Regular.otf */; };
+		DFE862B3CFD543BF9C0C9847 /* Laurel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6F58F12CF634128BE3CF4BF /* Laurel.ttf */; };
+		EFC1D80EF3394A18848B652C /* Apercu Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597D730A62944387A83D4637 /* Apercu Pro Bold.otf */; };
+		F0B926B3406948E7A6305580 /* Apercu Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77124736709A444996570365 /* Apercu Pro Black.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = mobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobileTests.m; sourceTree = "<group>"; };
+		061B287A2499499BB40C7439 /* Apercu Pro ExtraLight Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro ExtraLight Italic.otf"; path = "../assets/fonts/Apercu Pro ExtraLight Italic.otf"; sourceTree = "<group>"; };
+		07F5965566D74866820461A4 /* Apercu Pro Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Thin.otf"; path = "../assets/fonts/Apercu Pro Thin.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mobile/main.m; sourceTree = "<group>"; };
+		1D0AE47A65C8663E3B452821 /* Pods-mobile-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-mobileTests.release.xcconfig"; path = "Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E50BA037517475CBF80BDD8 /* Apercu Pro Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Bold Italic.otf"; path = "../assets/fonts/Apercu Pro Bold Italic.otf"; sourceTree = "<group>"; };
+		285E01ED1C6B47859C5E1F02 /* Apercu Pro Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Italic.otf"; path = "../assets/fonts/Apercu Pro Italic.otf"; sourceTree = "<group>"; };
+		4C37E706865F4C0A93A4BE6E /* Apercu Mono Pro Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Mono Pro Bold.otf"; path = "../assets/fonts/Apercu Mono Pro Bold.otf"; sourceTree = "<group>"; };
+		5451352CA0AF4A56A544AB52 /* Apercu Pro Medium Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Medium Italic.otf"; path = "../assets/fonts/Apercu Pro Medium Italic.otf"; sourceTree = "<group>"; };
+		597D730A62944387A83D4637 /* Apercu Pro Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Bold.otf"; path = "../assets/fonts/Apercu Pro Bold.otf"; sourceTree = "<group>"; };
+		6423831EA8574132BED9D8CC /* libPods-mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C1B3EF2EFB4D68962CF16E /* Apercu Mono Pro Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Mono Pro Medium.otf"; path = "../assets/fonts/Apercu Mono Pro Medium.otf"; sourceTree = "<group>"; };
+		6C97AB639B58BBB4B15BBE30 /* Pods-mobile-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		756DEE9EBD5441E3B5FCECFC /* Apercu Pro Light Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Light Italic.otf"; path = "../assets/fonts/Apercu Pro Light Italic.otf"; sourceTree = "<group>"; };
+		77124736709A444996570365 /* Apercu Pro Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Black.otf"; path = "../assets/fonts/Apercu Pro Black.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A102E0227D1DA11003922D9 /* mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = mobile.entitlements; path = mobile/mobile.entitlements; sourceTree = "<group>"; };
+		8A12AE30D41D4BB7B5D1E8E3 /* Apercu Pro Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Medium.otf"; path = "../assets/fonts/Apercu Pro Medium.otf"; sourceTree = "<group>"; };
+		8A1CC55C27C1798500D603C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8ABEA0FD27AB3F90007B7A3F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8ABEA10127AB3FF2007B7A3F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		8ABEA10327AB3FFD007B7A3F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8ABEA10527AB4006007B7A3F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		8ACA258827C165D6007FEDEC /* mobileRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = mobileRelease.entitlements; path = mobile/mobileRelease.entitlements; sourceTree = "<group>"; };
+		ABFE59519B596E51CEFDCCC0 /* libPods-mobile-mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobile-mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B444B6B9FF4E4E71BF077FD4 /* Apercu Mono Pro Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Mono Pro Regular.otf"; path = "../assets/fonts/Apercu Mono Pro Regular.otf"; sourceTree = "<group>"; };
+		C0A881CF5CF3F2B244570E2A /* Pods-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.debug.xcconfig"; path = "Target Support Files/Pods-mobile/Pods-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DC9976090F41BAA1D1AE88 /* Apercu Pro Thin Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Thin Italic.otf"; path = "../assets/fonts/Apercu Pro Thin Italic.otf"; sourceTree = "<group>"; };
+		CF4DC02422354B1FB4436487 /* Apercu Pro ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro ExtraLight.otf"; path = "../assets/fonts/Apercu Pro ExtraLight.otf"; sourceTree = "<group>"; };
+		D00AAFFCFCFDA5787532823F /* Pods-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.release.xcconfig"; path = "Target Support Files/Pods-mobile/Pods-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		D21C3A54280DEFE400A9E49F /* losesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = losesound.mp3; path = ../android/app/src/main/res/raw/losesound.mp3; sourceTree = "<group>"; };
+		D21C3A55280DEFE400A9E49F /* select.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = select.mp3; path = ../android/app/src/main/res/raw/select.mp3; sourceTree = "<group>"; };
+		D21C3A56280DEFE400A9E49F /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = ../android/app/src/main/res/raw/win.mp3; sourceTree = "<group>"; };
+		D21C3A57280DEFE400A9E49F /* videogamelose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = videogamelose.mp3; path = ../android/app/src/main/res/raw/videogamelose.mp3; sourceTree = "<group>"; };
+		D21C3A58280DEFE400A9E49F /* victorysound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = victorysound.mp3; path = ../android/app/src/main/res/raw/victorysound.mp3; sourceTree = "<group>"; };
+		D21C3A59280DEFE400A9E49F /* suspension.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = suspension.mp3; path = ../android/app/src/main/res/raw/suspension.mp3; sourceTree = "<group>"; };
+		D21C3A5A280DEFE400A9E49F /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundmusic.mp3; path = ../android/app/src/main/res/raw/backgroundmusic.mp3; sourceTree = "<group>"; };
+		D21C3A5B280DEFE400A9E49F /* card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = card.mp3; path = ../android/app/src/main/res/raw/card.mp3; sourceTree = "<group>"; };
+		E080A6BC3BBE4BD2B0FEA784 /* Apercu Pro Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Regular.otf"; path = "../assets/fonts/Apercu Pro Regular.otf"; sourceTree = "<group>"; };
+		E93C153D0A274D698913E957 /* Apercu Pro Black Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Black Italic.otf"; path = "../assets/fonts/Apercu Pro Black Italic.otf"; sourceTree = "<group>"; };
+		EA11FD722A32403EAC0C842C /* Apercu Mono Pro Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Mono Pro Light.otf"; path = "../assets/fonts/Apercu Mono Pro Light.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6F58F12CF634128BE3CF4BF /* Laurel.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Laurel.ttf; path = ../assets/fonts/Laurel.ttf; sourceTree = "<group>"; };
+		FBE18798D8014DBD88627327 /* Apercu Pro Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Apercu Pro Light.otf"; path = "../assets/fonts/Apercu Pro Light.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF68E3733C33B6898317E18 /* libPods-mobile-mobileTests.a in Frameworks */,
+				8ABEA10227AB3FF2007B7A3F /* FBSDKCoreKit.framework in Frameworks */,
+				8ABEA10627AB4006007B7A3F /* FBSDKShareKit.framework in Frameworks */,
+				8ABEA10427AB3FFD007B7A3F /* FBSDKLoginKit.framework in Frameworks */,
+				8ABEA0FE27AB3F90007B7A3F /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6172F2D35A4C3AA820D92908 /* libPods-mobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* mobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = mobileTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C92832062F4F23BEB6C851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6F58F12CF634128BE3CF4BF /* Laurel.ttf */,
+				E080A6BC3BBE4BD2B0FEA784 /* Apercu Pro Regular.otf */,
+				4C37E706865F4C0A93A4BE6E /* Apercu Mono Pro Bold.otf */,
+				EA11FD722A32403EAC0C842C /* Apercu Mono Pro Light.otf */,
+				66C1B3EF2EFB4D68962CF16E /* Apercu Mono Pro Medium.otf */,
+				B444B6B9FF4E4E71BF077FD4 /* Apercu Mono Pro Regular.otf */,
+				E93C153D0A274D698913E957 /* Apercu Pro Black Italic.otf */,
+				77124736709A444996570365 /* Apercu Pro Black.otf */,
+				1E50BA037517475CBF80BDD8 /* Apercu Pro Bold Italic.otf */,
+				597D730A62944387A83D4637 /* Apercu Pro Bold.otf */,
+				061B287A2499499BB40C7439 /* Apercu Pro ExtraLight Italic.otf */,
+				CF4DC02422354B1FB4436487 /* Apercu Pro ExtraLight.otf */,
+				285E01ED1C6B47859C5E1F02 /* Apercu Pro Italic.otf */,
+				756DEE9EBD5441E3B5FCECFC /* Apercu Pro Light Italic.otf */,
+				FBE18798D8014DBD88627327 /* Apercu Pro Light.otf */,
+				5451352CA0AF4A56A544AB52 /* Apercu Pro Medium Italic.otf */,
+				8A12AE30D41D4BB7B5D1E8E3 /* Apercu Pro Medium.otf */,
+				C5DC9976090F41BAA1D1AE88 /* Apercu Pro Thin Italic.otf */,
+				07F5965566D74866820461A4 /* Apercu Pro Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				D21C3A5A280DEFE400A9E49F /* backgroundmusic.mp3 */,
+				D21C3A5B280DEFE400A9E49F /* card.mp3 */,
+				D21C3A54280DEFE400A9E49F /* losesound.mp3 */,
+				D21C3A55280DEFE400A9E49F /* select.mp3 */,
+				D21C3A59280DEFE400A9E49F /* suspension.mp3 */,
+				D21C3A58280DEFE400A9E49F /* victorysound.mp3 */,
+				D21C3A57280DEFE400A9E49F /* videogamelose.mp3 */,
+				D21C3A56280DEFE400A9E49F /* win.mp3 */,
+				8ADEDE0727FB7A1E00CBF008 /* audios */,
+				8A102E0227D1DA11003922D9 /* mobile.entitlements */,
+				8A1CC55C27C1798500D603C4 /* GoogleService-Info.plist */,
+				8ACA258827C165D6007FEDEC /* mobileRelease.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABEA10527AB4006007B7A3F /* FBSDKShareKit.framework */,
+				8ABEA10327AB3FFD007B7A3F /* FBSDKLoginKit.framework */,
+				8ABEA10127AB3FF2007B7A3F /* FBSDKCoreKit.framework */,
+				8ABEA0FD27AB3F90007B7A3F /* Bolts.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				6423831EA8574132BED9D8CC /* libPods-mobile.a */,
+				ABFE59519B596E51CEFDCCC0 /* libPods-mobile-mobileTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* mobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* mobileTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				04C92832062F4F23BEB6C851 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* mobile.app */,
+				00E356EE1AD99517003FC87E /* mobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADEDE0727FB7A1E00CBF008 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
+		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A881CF5CF3F2B244570E2A /* Pods-mobile.debug.xcconfig */,
+				D00AAFFCFCFDA5787532823F /* Pods-mobile.release.xcconfig */,
+				6C97AB639B58BBB4B15BBE30 /* Pods-mobile-mobileTests.debug.xcconfig */,
+				1D0AE47A65C8663E3B452821 /* Pods-mobile-mobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobileTests" */;
+			buildPhases = (
+				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
+				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = mobileTests;
+			productName = mobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mobile" */;
+			buildPhases = (
+				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
+				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
+				14217FB06516D258E450596F /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobile;
+			productName = mobile;
+			productReference = 13B07F961A680F5B00A75B9A /* mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mobile" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* mobile */,
+				00E356ED1AD99517003FC87E /* mobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C3A60280DEFE400A9E49F /* victorysound.mp3 in Resources */,
+				D21C3A62280DEFE400A9E49F /* backgroundmusic.mp3 in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				8A1CC55D27C1798500D603C4 /* GoogleService-Info.plist in Resources */,
+				D21C3A61280DEFE400A9E49F /* suspension.mp3 in Resources */,
+				D21C3A5E280DEFE400A9E49F /* win.mp3 in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DFE862B3CFD543BF9C0C9847 /* Laurel.ttf in Resources */,
+				D21C3A5F280DEFE400A9E49F /* videogamelose.mp3 in Resources */,
+				D21C3A63280DEFE400A9E49F /* card.mp3 in Resources */,
+				DD88043B1AE44B15A2967964 /* Apercu Pro Regular.otf in Resources */,
+				D21C3A5D280DEFE400A9E49F /* select.mp3 in Resources */,
+				D21C3A5C280DEFE400A9E49F /* losesound.mp3 in Resources */,
+				3ADE4F64D6FA45DFA7C3E7D4 /* Apercu Mono Pro Bold.otf in Resources */,
+				D0FC4DC28A134C1685B48EE3 /* Apercu Mono Pro Light.otf in Resources */,
+				29D889A25BA244C2A22764D4 /* Apercu Mono Pro Medium.otf in Resources */,
+				D7B908905A634F1C8D64B8BC /* Apercu Mono Pro Regular.otf in Resources */,
+				6D4794EDF752484A805160F5 /* Apercu Pro Black Italic.otf in Resources */,
+				F0B926B3406948E7A6305580 /* Apercu Pro Black.otf in Resources */,
+				514ED91A5A86423BA152DC65 /* Apercu Pro Bold Italic.otf in Resources */,
+				EFC1D80EF3394A18848B652C /* Apercu Pro Bold.otf in Resources */,
+				3B5587E54C194B9FB129B08E /* Apercu Pro ExtraLight Italic.otf in Resources */,
+				1DECA48C495048288D3A1F00 /* Apercu Pro ExtraLight.otf in Resources */,
+				56B74A28FE654F34A3EC88C6 /* Apercu Pro Italic.otf in Resources */,
+				4C58528D904946E18376AA0C /* Apercu Pro Light Italic.otf in Resources */,
+				C5382DAD897C4AB78C3685EF /* Apercu Pro Light.otf in Resources */,
+				1866C678F81E4284890845D9 /* Apercu Pro Medium Italic.otf in Resources */,
+				6BCCA9927B5A41DFA05213E1 /* Apercu Pro Medium.otf in Resources */,
+				4280D294C9034A638161DACA /* Apercu Pro Thin Italic.otf in Resources */,
+				A894B7A84961429C94CD7CEC /* Apercu Pro Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14217FB06516D258E450596F /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobile-mobileTests/Pods-mobile-mobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobile/Pods-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* mobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* mobile */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-mobile-mobileTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-mobile-mobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = mobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mobile/mobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = GULU677JYH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FBAEMKit/XCFrameworks\"",
+					"\"${PODS_ROOT}/FBSDKCoreKit/XCFrameworks\"",
+					"\"${PODS_ROOT}/FBSDKCoreKit_Basics/XCFrameworks\"",
+					"\"${PODS_ROOT}/FBSDKLoginKit/XCFrameworks\"",
+					"\"${PODS_ROOT}/FBSDKShareKit/XCFrameworks\"",
+					"\"${PODS_ROOT}/Flipper-DoubleConversion/Frameworks\"",
+					"\"${PODS_ROOT}/OpenSSL-Universal/Frameworks\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal\"",
+					"\"$(SRCROOT)/../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKCoreKit.framework\"",
+					"\"$(SRCROOT)/../../../../Downloads/FacebookSDKs-iOS-4.40.0/Bolts.framework\"",
+					"\"$(SRCROOT)/../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKLoginKit.framework\"",
+					"\"$(SRCROOT)/../../../../Downloads/FacebookSDKs-iOS-4.40.0/FBSDKShareKit.framework\"",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/Bolts.framework\"",
+					"\"$(SRCROOT)/FBSDKLoginKit.framework\"",
+					"\"$(SRCROOT)/FBSDKCoreKit.framework\"",
+				);
+				INFOPLIST_FILE = mobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.13;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laurelgaming;
+				PRODUCT_NAME = mobile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mobile/mobileRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = GULU677JYH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/Bolts.framework\"",
+					"\"$(SRCROOT)/FBSDKCoreKit.framework\"",
+					"\"$(SRCROOT)/FBSDKLoginKit.framework\"",
+					"\"$(SRCROOT)/FBSDKShareKit.framework\"",
+				);
+				INFOPLIST_FILE = mobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.13;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.laurelgaming;
+				PRODUCT_NAME = mobile;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.app.laurelgaming";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/FBSDKShareKit.framework\"",
+					"\"$(SRCROOT)/FBSDKLoginKit.framework\"",
+					"\"$(SRCROOT)/FBSDKCoreKit.framework\"",
+					"\"$(SRCROOT)/Bolts.framework\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/FBSDKShareKit.framework\"",
+					"\"$(SRCROOT)/FBSDKLoginKit.framework\"",
+					"\"$(SRCROOT)/FBSDKCoreKit.framework\"",
+					"\"$(SRCROOT)/Bolts.framework\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
